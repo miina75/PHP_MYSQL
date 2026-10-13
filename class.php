@@ -40,7 +40,7 @@ $transcript = [
     ],
 ];
 
-echo "<h3>Question 5</h3>";
+
 echo "<table border='1' cellpadding='6' cellspacing='0'>";
 echo "<tr><th>Semester</th><th>Course</th><th>CW1</th><th>MidTerm</th><th>CW2</th><th>Final</th><th>Total</th><th>Status</th></tr>";
 foreach ($transcript as $semester => $courses) {
@@ -64,6 +64,9 @@ foreach ($transcript as $semester => $courses) {
     }
 }
 echo "</table>";
+
+
+
 
 
 ?>
